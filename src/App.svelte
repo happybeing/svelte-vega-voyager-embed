@@ -16,6 +16,9 @@ onMount(() => {
 		color: purple;
 	}
 </style>
+<svelte:head>
+<link rel="stylesheet" type="text/css" href="./style.css">
+</svelte:head>
 
 <h1>Vega Voyager embedded in Svelte</h1>
 <p>By theWebalyst, see:<br/>

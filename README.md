@@ -13,7 +13,8 @@ and analysis tool in a Svelte project.
   - to install `file-loader` and `url-loader`
   - webpack.config.js needs `url-loader` and `file-loader` rules for `font-awesome`
 - To load the test datasets need to... ??? `vega-datasets`
-- Styles look broken in the 'Add dataset' popup, and on the dashboard etc.
+- styles.css does not appear to be in the voyager project, so I copied styles.css and styles.css.map 
+from ./node_modules/datavoyager/dist and included styles.css using <svelte:head>
 
 ## Get started
 
