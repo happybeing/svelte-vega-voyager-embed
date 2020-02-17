@@ -3,6 +3,19 @@
 This repo shows how to embed the Vega Voyager visualisation
 and analysis tool in a Svelte project, and is part of the research for [Visualisation Lab](https://github.com/theWebalyst/visualisation-lab).
 
+I you just want to play with Voyager I recommend using the official deployment via
+the Voyager [github](https://github.com/vega/voyager), and watching their OpenVizConf ~
+presentation video (about 30 mins).
+
+## Issues
+Working locally with `yarn dev` is best because it allows you to load the test
+datasets listed in the default 'Load' dialog. When deployed to the zeit-now service
+this no longer works, and the only way to load data seems to be by uploading a file
+from your local device.
+
+You may notice a problem with the component not filling the screen and not resizing with
+you browser window. I've left this as my purpose for the moment was just to learn how to
+embed Voyager in Svelte, but feel free to submit a PR if you fix this or any other issues.
 
 ## Voyager Issues
 
