@@ -21,9 +21,10 @@ onMount(() => {
 </svelte:head>
 
 <h1>Vega Voyager embedded in Svelte</h1>
-<p>By theWebalyst, see:<br/>
-- Code: visit <a href="https://github.com/theWebalyst/svelte-vega-voyager-embed">github</a>
-- Twitter: follow <a href="https://twitter.com/safepress">@safepress</a>
+<p>
+By theWebalyst.
+Code: <a href="https://github.com/theWebalyst/svelte-vega-voyager-embed">github</a> 
+Twitter: <a href="https://twitter.com/safepress">@safepress</a>
 </p>
 
 <div id='voyager-embed'></div>
